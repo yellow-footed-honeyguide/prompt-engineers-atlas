@@ -1,2 +1,2 @@
 # prompt-codex
-Collection of prompts for LLM
+Collection of prompts for LLM & collection of LLM links
