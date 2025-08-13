@@ -5,3 +5,4 @@ Collection of prompts for LLM & collection of LLM links
 - https://gemini.google.com/app
 - https://playground.perplexity.ai/
 - https://chat.mistral.ai/chat
+- https://lmarena.ai/
