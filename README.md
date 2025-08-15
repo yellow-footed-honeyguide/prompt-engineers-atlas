@@ -1,6 +1,6 @@
 # LLMs collection. Promts collection. AI-IDEs collection
 
-<img src="https://openai.com/favicon.ico">
+
 ## 🛠️ LLMs
 
 |Logo| Vendor | Description |
