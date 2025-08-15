@@ -11,7 +11,7 @@ Collection of prompts for LLMs & collection of LLMs links
 | [Anthropic](https://claude.ai) | Claude Sonnet 4 and Claude Opus 4.1 |
 | [Google](https://gemini.google.com) | Gemini 2.5 PRO |
 | [Mistral](https://chat.mistral.ai/chat) | Mistral AI. French company|
-| [Google](https://gemini.google.com) | Gemini 2.5 PRO |
+| [DeepSeek](https://chat.deepseek.com/) | DeepSeek & DeepSeek R1 |
 | [LmArena](https://lmarena.ai/) | Pretty nice collections of LLM models |
 
 
