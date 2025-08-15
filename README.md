@@ -3,9 +3,9 @@
 
 ## 🛠️ LLMs
 
-| Vendor | Description |
-|------|-------------|
-| [OpenAI](https://chatgpt.com) | GPT-5 is an iPhone in LLM space |
+|Logo| Vendor | Description |
+|----|------|-------------|
+|<img src="[https://cdn.simpleicons.org/anthropic/000000](https://openai.com/favicon.ico)" width="16" height="16">| [OpenAI](https://chatgpt.com) | GPT-5 is an iPhone in LLM space |
 | [Anthropic](https://claude.ai) | Claude Sonnet 4 and Claude Opus 4.1 |
 | [Google](https://gemini.google.com) | Gemini 2.5 PRO |
 | [Mistral](https://chat.mistral.ai/chat) | Mistral AI. French company|
