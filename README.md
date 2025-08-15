@@ -17,6 +17,7 @@
 
 ## IDEs
 | Vendor | Description |
+|------|-------------|
 | [Cursor](https://www.cursor.com) | AI-first code editor built for pair-programming with models |
 | [Windsurf (Codeium)](https://windsurf.ai) | AI-powered IDE with advanced code completion and workflow automation ([Product Page](https://www.codeium.com/windsurf)) |
 | [Zed](https://zed.dev) | High-performance, collaborative code editor with AI features |
