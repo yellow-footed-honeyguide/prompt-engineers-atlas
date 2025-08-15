@@ -14,7 +14,7 @@ Collection of prompts for LLMs & collection of LLMs links
 | [DeepSeek](https://chat.deepseek.com/) | DeepSeek & DeepSeek R1 |
 | [xAI](https://grok.com) | Grok 4 |
 | [LmArena](https://lmarena.ai/) | Pretty nice collections of LLM models |
-| [Perplexity]((https://playground.perplexity.ai/) | r1-1776, sonar-resoning-pro & other models |
+| [Perplexity](https://playground.perplexity.ai/) | r1-1776, sonar-resoning-pro & other models |
 
 
 
