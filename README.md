@@ -15,20 +15,14 @@
 | [Perplexity](https://playground.perplexity.ai/) | r1-1776, sonar-resoning-pro & other models |
 
 
-## IDEs
+## AI-IDEs
 | Vendor | Description |
 |------|-------------|
 | [Cursor](https://www.cursor.com) | AI-first code editor built for pair-programming with models |
 | [Windsurf](https://windsurf.ai) | AI-powered IDE with advanced code completion and workflow automation |
 | [Zed](https://zed.dev) | High-performance, collaborative code editor with AI features |
 | [JetBrains Fleet](https://www.jetbrains.com/fleet/) | Next-gen IDE with AI Assistant (JetBrains) |
-| [GitHub Copilot](https://copilot.github.com) | AI pair programmer (VS Code extension) |
-| [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) | AI coding companion (AWS) |
-| [Tabnine](https://www.tabnine.com) | AI code completion for VS Code, IntelliJ, and more |
-| [Replit Ghostwriter](https://replit.com/ghostwriter) | AI-powered coding assistant (Replit) |
-| [Continue](https://continue.dev) | Open-source AI code assistant (VS Code, JetBrains, etc.) |
-| [Bloop](https://bloop.ai) | Fast code search and navigation with AI features |
-| [Sourcegraph Cody](https://sourcegraph.com/cody) | AI coding assistant for codebases (VS Code, JetBrains) |
+
 
 
 
