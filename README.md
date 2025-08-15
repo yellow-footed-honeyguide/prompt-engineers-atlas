@@ -1,6 +1,4 @@
-# prompt-codex
-Collection of prompts for LLMs & collection of LLMs links
-
+# LLMs collection. Promts collection. AI-IDEs collection
 
 
 ## 🛠️ LLMs
