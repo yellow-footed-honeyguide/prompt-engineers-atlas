@@ -24,8 +24,11 @@
 | <img src="assets/fleet.png" width="30">| [JetBrains Fleet](https://www.jetbrains.com/fleet/) | Next-gen IDE with AI Assistant (JetBrains) |
 
 
-
-
+## 🔬 Prompt-engineering related Papers
+|Year| Title  | Impact |
+|----|--------|-------------|
+| 2013 |[Efficient Estimation of Word Representations in Vector Space
+]([https://www.cursor.com](https://arxiv.org/abs/1301.3781)) | Word2Vec |
 
 
 
