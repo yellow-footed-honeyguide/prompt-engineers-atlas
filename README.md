@@ -27,7 +27,7 @@
 ## 🔬 Prompt-engineering related Papers
 |Year| Title  | Impact |
 |----|--------|-------------|
-| 2013 |[Efficient Estimation of Word Representations in Vector Space]([https://www.cursor.com](https://arxiv.org/abs/1301.3781) | Word2Vec |
+| 2013 |[Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781) | Word2Vec |
 
 
 
