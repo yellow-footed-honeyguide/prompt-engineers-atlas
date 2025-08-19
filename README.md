@@ -44,7 +44,7 @@
 | 2023 |[Gemini: A Family of Highly Capable Multimodal Models ](https://arxiv.org/abs/2312.11805 ) | -  |
 | 2023 |[ Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601 ) |  - |
 | 2023 |[Large Language Models as Optimizers ](https://arxiv.org/abs/2309.03409 ) | -  |
-| 2025 |[The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity])(https://arxiv.org/abs/2506.06941) | -  |
+| 2025 |[The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://arxiv.org/abs/2506.06941) | -  |
 
 
 
