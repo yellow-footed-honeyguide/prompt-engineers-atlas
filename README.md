@@ -32,15 +32,19 @@
 | 2017 |[Attention Is All You Need](https://arxiv.org/abs/1706.03762) | Introducting Transformers  |
 | 2018 |[Improving Language Understanding
 by Generative Pre-Training ](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf ) | GPT-1  |
-|2019|[Language Models are Unsupervised Multitask Learners ]( https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | GPT-2  |
-|2020|[Language Models are Few-Shot Learners ]( https://arxiv.org/abs/2005.14165 ) |  GPT-3  |
+| 2019 |[Language Models are Unsupervised Multitask Learners ]( https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | GPT-2  |
+| 2020 |[Language Models are Few-Shot Learners ]( https://arxiv.org/abs/2005.14165 ) |  GPT-3  |
+| 2020 |[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks ](https://arxiv.org/abs/2005.11401 ) | -  |
 |2022|[Research: quantifying GitHub Copilot’s impact on developer productivity and happiness ](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/ ) |  Is this GitHub copilot helping developers?   |
 | 2022 |[Training language models to follow instructions with human feedback ]( https://arxiv.org/abs/2203.02155) | Introducing RLHF. GPT-3.5, engine of ChatGPT  |
-
-|  |[ ]( ) |   |
-|  |[ ]( ) |   |
-|  |[ ]( ) |   |
-|  |[ ]( ) |   |
+| 2022 |[ Constitutional AI: Harmlessness from AI Feedback](https://scalingintelligence.stanford.edu/pubs/constitutionalai.pdf ) | -  |
+| 2022 |[Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682 ) | -  |
+| 2022 |[Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters ]( https://arxiv.org/abs/2212.10001) |  - |
+| 2023 |[Sparks of Artificial General Intelligence: Early experiments with GPT-4 ](https://arxiv.org/abs/2303.12712 ) |  - |
+| 2023 |[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774 ) | -  |
+| 2023 |[Gemini: A Family of Highly Capable Multimodal Models ](https://arxiv.org/abs/2312.11805 ) | -  |
+| 2023 |[ Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601 ) |  - |
+| 2023 |[Large Language Models as Optimizers ](https://arxiv.org/abs/2309.03409 ) | -  |
 
 
  
