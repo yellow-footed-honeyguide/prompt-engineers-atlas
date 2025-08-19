@@ -1,4 +1,4 @@
-# LLMs collection. Promts collection. AI-IDEs collection
+# LLMs collection. Promts collection. AI-IDEs collection. Papers collection
 
 
 ## 🛠️ LLMs
@@ -25,7 +25,7 @@
 
 
 
-## 🔬 Prompt-engineering related Papers
+## 🔬 Papers
 |Year| Title  | Impact |
 |----|--------|-------------|
 | 2013 |[Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781) | Word2Vec |
