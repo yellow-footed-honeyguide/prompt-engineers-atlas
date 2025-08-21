@@ -85,7 +85,8 @@ You are a data extraction specialist with
 10 years of experience in e-commerce analytics. 
 Your job is to accurately extract product information.
 
-Extract the product name, price, and rating from: 
+Extract the product name, price, and rating from:
+
 'I bought the Samsung Galaxy A54 for $450 last week. 
 It's pretty good, I'd give it 4 out of 5 stars.'
 ```
