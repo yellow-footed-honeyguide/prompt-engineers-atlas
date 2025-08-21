@@ -48,32 +48,14 @@
 
 
 **1. ZERO-SHOT:**<br>
-```
-Extract the product name, price, and rating from this review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
-```
----
-### 1. Zero-Shot Prompt
 ```prompt
 Extract the product name, price, and rating from this review: 
 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 ---
-### 1. Zero-Shot Prompt 🌟
 
-<div align="center" style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin: 16px 0; background: #f6f8fa;">
-
-**🎯 Task:** Information Extraction  
-**🔧 Type:** Zero-Shot Prompting  
-**📝 Instruction:** Extract structured data from product reviews
-
+**2. FEW-SHOT:**<br>
 ```prompt
-Extract the product name, price, and rating from this review: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
-```
-
----
-
-**2. FEW-SHOT:**
 "Review: 'The iPhone 13 costs $799 and deserves 5/5 stars!'
 Product: iPhone 13, Price: $799, Rating: 5/5
 
@@ -82,6 +64,7 @@ Product: Pixel 7, Price: $599, Rating: 4/5
 
 Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 Product:"
+```
 
 ---
 
