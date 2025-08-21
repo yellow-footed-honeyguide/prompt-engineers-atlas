@@ -15,7 +15,7 @@
 
 |<img src="assets/qwen3.jpeg" width="30">|[DeepSeek](https://chat.qwen.ai/) | Qwen3 |
 
-<br>
+
 LLM Aggregators:
 
 |<img src="assets/perplexity.png" width="30">|[Perplexity](https://www.perplexity.ai/) | main Perplexity AI platform, a smart chat-based search engine that combines AI (like Claude, GPT-5, Gemini) and real-time internet data|
