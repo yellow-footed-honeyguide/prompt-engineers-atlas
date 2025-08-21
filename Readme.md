@@ -42,12 +42,20 @@
 | <img src="assets/fleet.png" width="30">| [JetBrains Fleet](https://www.jetbrains.com/fleet/) | Next-gen IDE with AI Assistant (JetBrains) |
 
 
-## ⛏️ Promt technics 
+## ⛏️ Prompt technics 
 ---
+
+
 
 **1. ZERO-SHOT:**<br>
 ```
 Extract the product name, price, and rating from this review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+```
+
+### 1. Zero-Shot Prompt
+```prompt
+Extract the product name, price, and rating from this review: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
