@@ -83,8 +83,7 @@ You are a data extraction specialist with 10 years of experience in e-commerce a
 Your job is to accurately extract product information.
 
 Extract the product name, price, and rating from: 
-'I bought the Samsung Galaxy A54 for $450 last week. 
-It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -130,8 +129,8 @@ Attempt 1: Extract product, price, rating
 Attempt 2: What item, cost, and score are mentioned?
 Attempt 3: Identify the purchase details
 
-Review: 'I bought the Samsung Galaxy A54 for $450 last week. 
-It's pretty good, I'd give it 4 out of 5 stars.'
+Review: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
