@@ -1,7 +1,7 @@
 # LLMs collection. Promts collection. AI-IDEs collection. Papers collection
 
 
-## 🛠️ LLMs
+## 🦜 LLMs
 |Logo|Vendor  | Description |
 |----|--------|-------------|
 | <img src="assets/openai.png" width="30">|[OpenAI](https://chatgpt.com) | GPT-5 is an iPhone in LLM space |
@@ -12,7 +12,7 @@
 |<img src="assets/mistral.png" width="30">| [Mistral](https://chat.mistral.ai/chat) | Mistral AI. French company|
 |<img src="assets/qwen3.jpeg" width="30">|[Qwen3](https://chat.qwen.ai/) | Qwen3 |
 
-## 🛠️ LLMs Aggregators
+## 🧭 LLMs Aggregators
 |Logo|Vendor  | Description |
 |----|--------|-------------|
 |<img src="assets/perplexity.png" width="30">|[Perplexity](https://www.perplexity.ai/) | main Perplexity AI platform, a smart chat-based search engine that combines AI (like Claude, GPT-5, Gemini) and real-time internet data|
@@ -32,7 +32,7 @@
 | <img src="assets/fleet.png" width="30">| [JetBrains Fleet](https://www.jetbrains.com/fleet/) | Next-gen IDE with AI Assistant (JetBrains) |
 
 
-## 🌀 Promt technics 
+## ⚗️ Promt technics 
 ---
 
 **1. ZERO-SHOT:**
@@ -142,7 +142,48 @@ Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I
 
 ---
 
+**13. ReAct (Reasoning and Acting):**
+"Let's solve this with a reasoning-action loop.
+Thought: I need to extract three key entities: product, price, and rating.
+Action: Find the product entity in the text.
+Observation: 'Samsung Galaxy A54'.
+Action: Find the price entity in the text.
+Observation: '$450'.
+Action: Find the rating entity in the text.
+Observation: '4 out of 5 stars'.
+Final Answer: Combine the observations.
 
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+
+---
+
+**14. GENERATED KNOWLEDGE:**
+"First, generate key knowledge about what to look for in a product review.
+1. A review will mention a specific product name.
+2. A review often contains the purchase price.
+3. A review usually includes a score or rating.
+
+Now, using this generated knowledge as your guide, extract the product, price, and rating from: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+
+---
+
+**15. STEP-BACK PROMPTING:**
+"First, take a step back and state the general principle for this task. The principle is to identify and isolate specific data points (product, price, rating) from surrounding unstructured text.
+
+Now, apply this principle to extract the product name, price, and rating from: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+
+---
+
+**16. RETRIEVAL AUGMENTED GENERATION (RAG):**
+"Answer the questions using ONLY the information provided in the document below. Do not use any outside knowledge.
+
+DOCUMENT: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+
+QUESTIONS:
+1. What is the product name mentioned in the document?
+2. What is the price mentioned in the document?
+3. What is the rating mentioned in the document?"
+---
 
 ## 🔬 Papers
 |Year| Title  | Impact |
