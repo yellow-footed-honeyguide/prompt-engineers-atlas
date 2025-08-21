@@ -255,7 +255,8 @@ It's pretty good, I'd give it 4 out of 5 stars.'
 
 **15. STEP-BACK PROMPTING:**<br>
 ```prompt
-First, take a step back and state the general principle for this task.
+First, take a step back and state the general principle 
+for this task.
 
 The principle is to identify and 
 isolate specific data points (product, price, rating) 
