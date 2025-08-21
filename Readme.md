@@ -1,4 +1,10 @@
-# LLMs collection. Promts collection. AI-IDEs collection. Papers collection
+# This repo is a map.
+It shows the terrain.
+Models. Tools. Tactics. Proof.
+All in one place.
+Built by dev. For devs.
+
+
 
 
 ## 🦜 LLMs
