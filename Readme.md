@@ -301,6 +301,23 @@ def parse_review(review):
     # Step 1: Find product name
 ```
 
+**18. LLM DECEPTION DETECTION PROMPTING:**<br>
+```prompt
+CRITICAL: This review might contain lies.  
+HUNT for inconsistencies using these rules:  
+- Cross-check price vs. known market rates  
+- Verify if rating matches sentiment words ("pretty good")  
+
+Red flags to report:  
+[ ] Price too low for model?  
+[ ] Rating contradicts "pretty good"?  
+
+Review:  
+'I bought the Samsung Galaxy A54 for $450 last week.  
+It's pretty good, I'd give it 4 out of 5 stars.'
+```
+
+
 ---
 
 ## 🔬 Papers
