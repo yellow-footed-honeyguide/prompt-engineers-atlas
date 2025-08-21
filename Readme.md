@@ -65,14 +65,16 @@ Product:"
 
 ---
 
-**3. CHAIN-OF-THOUGHT (CoT):**
-"Extract product info from this review. Think step-by-step:
+**3. CHAIN-OF-THOUGHT (CoT):**<br>
+```prompt
+Extract product info from this review. Think step-by-step:
 1. First, identify what product is mentioned
 2. Then find the price information
 3. Finally, locate the rating or score
 
 Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
-Let's think through this:"
+Let's think through this:
+```
 
 ---
 
