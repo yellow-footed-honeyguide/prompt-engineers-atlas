@@ -348,7 +348,7 @@ Review:
 It's pretty good, I'd give it 4 out of 5 stars.'  
 ```
 
-**21. DIRECTIONAL STIMULUS PROMPTING:**<br>
+**21. DIRECTIONAL STIMULUS PROMPTING ([Paper](https://arxiv.org/pdf/2302.11520)):**<br>
 ```prompt
 Boost reasoning depth with directional cues.  
 DO NOT stop at surface answers.  
