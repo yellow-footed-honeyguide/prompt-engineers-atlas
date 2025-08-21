@@ -238,7 +238,8 @@ It's pretty good, I'd give it 4 out of 5 stars.'
 
 **14. GENERATED KNOWLEDGE:**<br>
 ```prompt
-First, generate key knowledge about what to look for in a product review.
+First, generate key knowledge about what to look for 
+in a product review.
 
 1. A review will mention a specific product name.
 2. A review often contains the purchase price.
@@ -260,8 +261,8 @@ The principle is to identify and
 isolate specific data points (product, price, rating) 
 from surrounding unstructured text.
 
-Now, apply this principle to extract the product name, price, and 
-rating from: 
+Now, apply this principle to extract 
+the product name, price, and rating from: 
 'I bought the Samsung Galaxy A54 for $450 last week. 
 It's pretty good, I'd give it 4 out of 5 stars.'
 ```
