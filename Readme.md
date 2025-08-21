@@ -77,7 +77,8 @@ Let's think through this:
 **4. ROLE PROMPTING:**<br>
 ```prompt
 You are a data extraction specialist with 10 years of experience in e-commerce analytics. 
-Your job is to accurately extract product information. 
+Your job is to accurately extract product information.
+
 Extract the product name, price, and rating from: 
 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
@@ -87,6 +88,7 @@ Extract the product name, price, and rating from:
 **5. INSTRUCTION WITH CONSTRAINTS:**<br>
 ```prompt
 Extract product info from the review below.
+
 RULES:
 - MUST include product name
 - MUST include exact price with dollar sign
@@ -94,7 +96,8 @@ RULES:
 - If any info is missing, write 'NOT FOUND'
 - Output as comma-separated values
 
-Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+Review: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -167,7 +170,9 @@ then use that prompt on this review:
 
 **11. TREE-OF-THOUGHTS:**<br>
 ```prompt
-Extract product info. Consider multiple approaches:
+Extract product info. 
+
+Consider multiple approaches:
 Branch A: Start with the product name...
 Branch B: Start with the price...
 Branch C: Start with the rating...
@@ -182,8 +187,8 @@ Review:
 **12. EMOTIONAL PROMPTING:**<br>
 ```prompt
 This is REALLY important for my job! 
-
-I desperately need you to extract the product, price, and rating perfectly! 
+I desperately need you to extract the product, price, and rating perfectly!
+ 
 Please help me with: 
 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.' 
 
@@ -213,6 +218,7 @@ Review:
 **14. GENERATED KNOWLEDGE:**<br>
 ```prompt
 First, generate key knowledge about what to look for in a product review.
+
 1. A review will mention a specific product name.
 2. A review often contains the purchase price.
 3. A review usually includes a score or rating.
@@ -225,7 +231,8 @@ Now, using this generated knowledge as your guide, extract the product, price, a
 
 **15. STEP-BACK PROMPTING:**<br>
 ```prompt
-First, take a step back and state the general principle for this task. 
+First, take a step back and state the general principle for this task.
+
 The principle is to identify and isolate specific data points (product, price, rating) 
 from surrounding unstructured text.
 
