@@ -102,6 +102,7 @@ Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I
 **6. NEGATIVE PROMPTING:**<br>
 ```prompt
 Extract product info from this review. 
+
 DO NOT include personal opinions. 
 DO NOT add any information not in the text. 
 DO NOT use bullet points or long explanations.
@@ -133,7 +134,8 @@ Let's break this down:
 3. What rating was given?
 4. Now combine all info in a structured format
 
-Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+Review: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -171,7 +173,8 @@ Branch B: Start with the price...
 Branch C: Start with the rating...
 Evaluate which approach gives the most complete extraction.
 
-Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+Review: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -179,8 +182,11 @@ Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I
 **12. EMOTIONAL PROMPTING:**<br>
 ```prompt
 This is REALLY important for my job! 
+
 I desperately need you to extract the product, price, and rating perfectly! 
-Please help me with: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.' 
+Please help me with: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.' 
+
 My boss is counting on this!
 ```
 ---
@@ -188,6 +194,7 @@ My boss is counting on this!
 **13. ReAct (Reasoning and Acting):**<br>
 ```prompt
 Let's solve this with a reasoning-action loop.
+
 Thought: I need to extract three key entities: product, price, and rating.
 Action: Find the product entity in the text.
 Observation: 'Samsung Galaxy A54'.
@@ -197,7 +204,8 @@ Action: Find the rating entity in the text.
 Observation: '4 out of 5 stars'.
 Final Answer: Combine the observations.
 
-Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+Review: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -218,7 +226,8 @@ Now, using this generated knowledge as your guide, extract the product, price, a
 **15. STEP-BACK PROMPTING:**<br>
 ```prompt
 First, take a step back and state the general principle for this task. 
-The principle is to identify and isolate specific data points (product, price, rating) from surrounding unstructured text.
+The principle is to identify and isolate specific data points (product, price, rating) 
+from surrounding unstructured text.
 
 Now, apply this principle to extract the product name, price, and rating from: 
 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
@@ -228,9 +237,11 @@ Now, apply this principle to extract the product name, price, and rating from:
 
 **16. RETRIEVAL AUGMENTED GENERATION (RAG):**<br>
 ```prompt
-Answer the questions using ONLY the information provided in the document below. Do not use any outside knowledge.
+Answer the questions using ONLY the information provided in the document below. 
+Do not use any outside knowledge.
 
-DOCUMENT: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+DOCUMENT: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 
 QUESTIONS:
 1. What is the product name mentioned in the document?
