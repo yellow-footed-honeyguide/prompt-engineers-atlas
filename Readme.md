@@ -271,7 +271,8 @@ It's pretty good, I'd give it 4 out of 5 stars.'
 
 **16. RETRIEVAL AUGMENTED GENERATION (RAG):**<br>
 ```prompt
-Answer the questions using ONLY the information provided in the document below. 
+Answer the questions using ONLY the information provided 
+in the document below. 
 Do not use any outside knowledge.
 
 DOCUMENT: 
