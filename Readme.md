@@ -127,7 +127,8 @@ It's pretty good, I'd give it 4 out of 5 stars.'
 
 **7. SELF-CONSISTENCY PROMPTING:**<br>
 ```prompt
-Extract product info three different ways, then pick the most accurate:
+Extract product info three different ways, 
+then pick the most accurate:
 
 Attempt 1: Extract product, price, rating
 Attempt 2: What item, cost, and score are mentioned?
