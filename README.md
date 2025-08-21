@@ -35,8 +35,8 @@
 ## 🌀 Promt technics 
 | Technics  | Description |
 |--------|-------------|
-| |[few_shot_learning_example.prmt](https://github.com/yellow-footed-honeyguide/prompt-engineers-atlas/blob/main/few_shot_learning_example.prmt) | Few-Short Lerning 
-| |[structured_role_definition_example.prmt]([https://windsurf.ai](https://github.com/yellow-footed-honeyguide/prompt-engineers-atlas/blob/main/structured_role_definition_example.prmt)) | Prompt engineering with role definition and constraint specification |
+| [few_shot_learning_example.prmt](https://github.com/yellow-footed-honeyguide/prompt-engineers-atlas/blob/main/few_shot_learning_example.prmt) | Few-Short Lerning 
+| [structured_role_definition_example.prmt]([https://windsurf.ai](https://github.com/yellow-footed-honeyguide/prompt-engineers-atlas/blob/main/structured_role_definition_example.prmt)) | Prompt engineering with role definition and constraint specification |
 
 
 
