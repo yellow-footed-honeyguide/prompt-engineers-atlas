@@ -239,8 +239,10 @@ First, generate key knowledge about what to look for in a product review.
 2. A review often contains the purchase price.
 3. A review usually includes a score or rating.
 
-Now, using this generated knowledge as your guide, extract the product, price, and rating from: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+Now, using this generated knowledge as your guide, 
+extract the product, price, and rating from: 
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
