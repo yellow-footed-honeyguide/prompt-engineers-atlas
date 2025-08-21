@@ -32,7 +32,7 @@
 | <img src="assets/fleet.png" width="30">| [JetBrains Fleet](https://www.jetbrains.com/fleet/) | Next-gen IDE with AI Assistant (JetBrains) |
 
 
-## ⚗️ Promt technics 
+## ⛏️ Promt technics 
 ---
 
 **1. ZERO-SHOT:**
