@@ -7,10 +7,10 @@
 | <img src="assets/openai.png" width="30">|[OpenAI](https://chatgpt.com) | GPT-5 is an iPhone in LLM space |
 |<img src="assets/antropic.png" width="30">| [Anthropic](https://claude.ai) | Claude Sonnet 4 and Claude Opus 4.1 |
 |<img src="assets/gemine.png" width="30">|[Google](https://gemini.google.com) | Gemini 2.5 PRO |
-|<img src="assets/mistral.png" width="30">| [Mistral](https://chat.mistral.ai/chat) | Mistral AI. French company|
-|<img src="assets/deepseek.png" width="30">|[DeepSeek](https://chat.deepseek.com/) | DeepSeek & DeepSeek R1 |
 |<img src="assets/grok4.png" width="30">|[xAI](https://grok.com) | Grok 4 |
-|<img src="assets/qwen3.jpeg" width="30">|[DeepSeek](https://chat.qwen.ai/) | Qwen3 |
+|<img src="assets/deepseek.png" width="30">|[DeepSeek](https://chat.deepseek.com/) | DeepSeek & DeepSeek R1 |
+|<img src="assets/mistral.png" width="30">| [Mistral](https://chat.mistral.ai/chat) | Mistral AI. French company|
+|<img src="assets/qwen3.jpeg" width="30">|[Qwen3](https://chat.qwen.ai/) | Qwen3 |
 
 ## 🛠️ LLMs Aggregators
 |Logo|Vendor  | Description |
