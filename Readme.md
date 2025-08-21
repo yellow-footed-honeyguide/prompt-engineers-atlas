@@ -86,7 +86,6 @@ You are a data extraction specialist with
 Your job is to accurately extract product information.
 
 Extract the product name, price, and rating from:
-
 'I bought the Samsung Galaxy A54 for $450 last week. 
 It's pretty good, I'd give it 4 out of 5 stars.'
 ```
