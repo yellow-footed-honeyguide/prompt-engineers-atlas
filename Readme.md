@@ -81,7 +81,8 @@ Let's think through this:
 
 **4. ROLE PROMPTING:**<br>
 ```prompt
-You are a data extraction specialist with 10 years of experience in e-commerce analytics. 
+You are a data extraction specialist with 
+10 years of experience in e-commerce analytics. 
 Your job is to accurately extract product information.
 
 Extract the product name, price, and rating from: 
@@ -202,7 +203,8 @@ It's pretty good, I'd give it 4 out of 5 stars.'
 **12. EMOTIONAL PROMPTING:**<br>
 ```prompt
 This is REALLY important for my job! 
-I desperately need you to extract the product, price, and rating perfectly!
+I desperately need you to extract the product, price, 
+and rating perfectly!
  
 Please help me with: 
 'I bought the Samsung Galaxy A54 for $450 last week. 
@@ -253,10 +255,12 @@ It's pretty good, I'd give it 4 out of 5 stars.'
 ```prompt
 First, take a step back and state the general principle for this task.
 
-The principle is to identify and isolate specific data points (product, price, rating) 
+The principle is to identify and 
+isolate specific data points (product, price, rating) 
 from surrounding unstructured text.
 
-Now, apply this principle to extract the product name, price, and rating from: 
+Now, apply this principle to extract the product name, price, and 
+rating from: 
 'I bought the Samsung Galaxy A54 for $450 last week. 
 It's pretty good, I'd give it 4 out of 5 stars.'
 ```
