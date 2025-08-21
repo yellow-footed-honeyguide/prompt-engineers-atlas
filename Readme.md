@@ -40,7 +40,8 @@
 **1. ZERO-SHOT:**<br>
 ```prompt
 Extract the product name, price, and rating from this review: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -53,7 +54,8 @@ Product: iPhone 13, Price: $799, Rating: 5/5
 Review: 'Just got a Pixel 7 for $599. Solid 4/5.'
 Product: Pixel 7, Price: $599, Rating: 4/5
 
-Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 Product:
 ```
 
@@ -83,7 +85,8 @@ You are a data extraction specialist with 10 years of experience in e-commerce a
 Your job is to accurately extract product information.
 
 Extract the product name, price, and rating from: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -100,7 +103,8 @@ RULES:
 - Output as comma-separated values
 
 Review: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -114,7 +118,8 @@ DO NOT add any information not in the text.
 DO NOT use bullet points or long explanations.
 
 Just give me product, price, and rating from: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -128,7 +133,8 @@ Attempt 2: What item, cost, and score are mentioned?
 Attempt 3: Identify the purchase details
 
 Review: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -142,7 +148,8 @@ Let's break this down:
 4. Now combine all info in a structured format
 
 Review: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -150,7 +157,8 @@ Review:
 **9. PROMPT CHAINING:**<br>
 ```prompt
 Step 1: Identify the product in this review: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 
 [After response]
 
@@ -167,7 +175,8 @@ Step 3: Now find the rating given to [product from step 1]
 ```prompt
 Write a prompt that would best extract product information from reviews, 
 then use that prompt on this review: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -183,7 +192,8 @@ Branch C: Start with the rating...
 Evaluate which approach gives the most complete extraction.
 
 Review: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -194,7 +204,8 @@ This is REALLY important for my job!
 I desperately need you to extract the product, price, and rating perfectly!
  
 Please help me with: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.' 
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.' 
 
 My boss is counting on this!
 ```
@@ -214,7 +225,8 @@ Observation: '4 out of 5 stars'.
 Final Answer: Combine the observations.
 
 Review: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -241,7 +253,8 @@ The principle is to identify and isolate specific data points (product, price, r
 from surrounding unstructured text.
 
 Now, apply this principle to extract the product name, price, and rating from: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -252,7 +265,8 @@ Answer the questions using ONLY the information provided in the document below.
 Do not use any outside knowledge.
 
 DOCUMENT: 
-'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. 
+It's pretty good, I'd give it 4 out of 5 stars.'
 
 QUESTIONS:
 1. What is the product name mentioned in the document?
