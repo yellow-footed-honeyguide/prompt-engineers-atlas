@@ -33,10 +33,114 @@
 
 
 ## 🌀 Promt technics 
-| Technics  | Description |
-|--------|-------------|
-| [few_shot_learning_example.prmt](https://github.com/yellow-footed-honeyguide/prompt-engineers-atlas/blob/main/few_shot_learning_example.prmt) | Few-Short Lerning 
-| [structured_role_definition_example.prmt](https://github.com/yellow-footed-honeyguide/prompt-engineers-atlas/blob/main/structured_role_definition_example.prmt)| Prompt engineering with role definition and constraint specification |
+---
+
+**1. ZERO-SHOT:**
+"Extract the product name, price, and rating from this review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+
+---
+
+**2. FEW-SHOT:**
+"Review: 'The iPhone 13 costs $799 and deserves 5/5 stars!'
+Product: iPhone 13, Price: $799, Rating: 5/5
+
+Review: 'Just got a Pixel 7 for $599. Solid 4/5.'
+Product: Pixel 7, Price: $599, Rating: 4/5
+
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+Product:"
+
+---
+
+**3. CHAIN-OF-THOUGHT (CoT):**
+"Extract product info from this review. Think step-by-step:
+1. First, identify what product is mentioned
+2. Then find the price information
+3. Finally, locate the rating or score
+
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+Let's think through this:"
+
+---
+
+**4. ROLE PROMPTING:**
+"You are a data extraction specialist with 10 years of experience in e-commerce analytics. Your job is to accurately extract product information. Extract the product name, price, and rating from: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+
+---
+
+**5. INSTRUCTION WITH CONSTRAINTS:**
+"Extract product info from the review below.
+RULES:
+- MUST include product name
+- MUST include exact price with dollar sign
+- MUST include rating as X/5 format
+- If any info is missing, write 'NOT FOUND'
+- Output as comma-separated values
+
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+
+---
+
+**6. NEGATIVE PROMPTING:**
+"Extract product info from this review. DO NOT include personal opinions. DO NOT add any information not in the text. DO NOT use bullet points or long explanations. Just give me product, price, and rating from: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+
+---
+
+**7. SELF-CONSISTENCY PROMPTING:**
+"Extract product info three different ways, then pick the most accurate:
+
+Attempt 1: Extract product, price, rating
+Attempt 2: What item, cost, and score are mentioned?
+Attempt 3: Identify the purchase details
+
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+
+---
+
+**8. LEAST-TO-MOST PROMPTING:**
+"Let's break this down:
+1. What product is mentioned in this review?
+2. How much did it cost?
+3. What rating was given?
+4. Now combine all info in a structured format
+
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+
+---
+
+**9. PROMPT CHAINING:**
+"Step 1: Identify the product in this review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+
+[After response]
+
+Step 2: Now find the price of [product from step 1]
+
+[After response]
+
+Step 3: Now find the rating given to [product from step 1]"
+
+---
+
+**10. META-PROMPTING:**
+"Write a prompt that would best extract product information from reviews, then use that prompt on this review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+
+---
+
+**11. TREE-OF-THOUGHTS:**
+"Extract product info. Consider multiple approaches:
+Branch A: Start with the product name...
+Branch B: Start with the price...
+Branch C: Start with the rating...
+Evaluate which approach gives the most complete extraction.
+
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+
+---
+
+**12. EMOTIONAL PROMPTING:**
+"This is REALLY important for my job! I desperately need you to extract the product, price, and rating perfectly! Please help me with: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.' My boss is counting on this!"
+
+---
 
 
 
