@@ -1,3 +1,5 @@
+<center><img src="assets/repo_logo.png" height="320"></center>
+
 # This is a map.
 > It shows the terrain.<br>
 > Models. Tools. Tactics. Proof.<br>
