@@ -289,7 +289,8 @@ QUESTIONS:
 
 **17. PROGRAM-AIDED LANGUAGE MODELS (PAL):**<br>
 ```prompt
-Extract the product info. Write a Python function to parse the review.
+Extract the product info. 
+Write a Python function to parse the review.
 
 Review:
 'I bought the Samsung Galaxy A54 for $450 last week.
