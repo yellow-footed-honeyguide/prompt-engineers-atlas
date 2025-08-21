@@ -322,7 +322,8 @@ It's pretty good, I'd give it 4 out of 5 stars.'
 You are an expert prompt optimizer. 
 Your task is to generate the best prompt for 
 extracting product details from reviews. 
-Generate 5 candidate prompts. Then rank them by effectiveness.
+Generate 5 candidate prompts.
+Then rank them by effectiveness.
 
 Review to use as an example:
 'I bought the Samsung Galaxy A54 for $450 last week.
@@ -332,18 +333,35 @@ It's pretty good, I'd give it 4 out of 5 stars.'
 **20. PROMPT CHAINING WITH FEEDBACK LOOPS:**<br>
 ```prompt
 CHAIN STEP 1: Extract product name → [output]  
-FEEDBACK: Is this a valid phone model? (Y/N) → [user input]  
+FEEDBACK:
+Is this a valid phone model? (Y/N) → [user input]  
 
 CHAIN STEP 2: Extract price → [output]  
-FEEDBACK: Does price match regional pricing? (Y/N) → [user input]  
+FEEDBACK:
+Does price match regional pricing? (Y/N) → [user input]  
 
-CHAIN STEP 3: Output FINAL result ONLY after 2 valid feedbacks.  
+CHAIN STEP 3:
+Output FINAL result ONLY after 2 valid feedbacks.  
 
 Review:  
 'I bought the Samsung Galaxy A54 for $450 last week.  
 It's pretty good, I'd give it 4 out of 5 stars.'  
 ```
 
+**21. DIRECTIONAL STIMULUS PROMPTING:**<br>
+```prompt
+Boost reasoning depth with directional cues.  
+DO NOT stop at surface answers.  
+DO push deeper with "Why?" or "How exactly?"  
+
+Apply this to the review:  
+'I bought the Samsung Galaxy A54 for $450 last week.  
+It's pretty good, I'd give it 4 out of 5 stars.'  
+
+Directional cue:  
+"Explain why the rating implies
+battery life satisfaction."  
+```
 
 ---
 
