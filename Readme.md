@@ -317,6 +317,18 @@ Review:
 It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
+**19. OPTIMIZATION BY PROMPTING (OPRO):**<br>
+```prompt
+You are an expert prompt optimizer. 
+Your task is to generate the best prompt for 
+extracting product details from reviews. 
+Generate 5 candidate prompts. Then rank them by effectiveness.
+
+Review to use as an example:
+'I bought the Samsung Galaxy A54 for $450 last week.
+It's pretty good, I'd give it 4 out of 5 stars.'
+```
+
 
 ---
 
