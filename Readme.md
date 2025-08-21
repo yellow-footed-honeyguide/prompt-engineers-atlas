@@ -1,4 +1,6 @@
-<center><img src="assets/repo_logo.png" height="320"></center>
+<div align="center">
+  <img src="assets/repo_logo.png" height="320">
+</div>
 
 # This is a map.
 > It shows the terrain.<br>
