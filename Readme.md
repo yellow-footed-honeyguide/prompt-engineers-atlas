@@ -173,7 +173,8 @@ Step 3: Now find the rating given to [product from step 1]
 
 **10. META-PROMPTING:**<br>
 ```prompt
-Write a prompt that would best extract product information from reviews, 
+Write a prompt that would best extract 
+product information from reviews, 
 then use that prompt on this review: 
 'I bought the Samsung Galaxy A54 for $450 last week. 
 It's pretty good, I'd give it 4 out of 5 stars.'
@@ -215,7 +216,8 @@ My boss is counting on this!
 ```prompt
 Let's solve this with a reasoning-action loop.
 
-Thought: I need to extract three key entities: product, price, and rating.
+Thought: I need to extract three key entities: 
+product, price, and rating.
 Action: Find the product entity in the text.
 Observation: 'Samsung Galaxy A54'.
 Action: Find the price entity in the text.
