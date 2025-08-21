@@ -8,9 +8,6 @@
 > All in one place.<br>
 > Built by dev. For devs.<br>
 
-
-
-
 ## 🦜 LLMs
 |Logo|Vendor  | Description |
 |----|--------|-------------|
@@ -29,10 +26,6 @@
 |<img src="assets/perplexity.png" width="30">|[Perplexity Playground](https://playground.perplexity.ai/) | r1-1776, sonar-resoning-pro & other models |
 |<img src="assets/llmarena.png" width="30">|[LmArena](https://lmarena.ai/) | Pretty nice collections of LLM models |
 
-
-
-
-
 ## 🌀 AI-IDEs
 |Logo|Vendor  | Description |
 |----|--------|-------------|
@@ -49,6 +42,7 @@
 Extract the product name, price, and rating from this review: 
 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
+
 ---
 
 **2. FEW-SHOT:**<br>
@@ -62,11 +56,14 @@ Product: Pixel 7, Price: $599, Rating: 4/5
 Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 Product:
 ```
+
 ---
 
 **3. CHAIN-OF-THOUGHT (CoT):**<br>
 ```prompt
-Extract product info from this review. Think step-by-step:
+Extract product info from this review. 
+
+Think step-by-step:
 1. First, identify what product is mentioned
 2. Then find the price information
 3. Finally, locate the rating or score
@@ -79,13 +76,17 @@ Let's think through this:
 
 **4. ROLE PROMPTING:**<br>
 ```prompt
-You are a data extraction specialist with 10 years of experience in e-commerce analytics. Your job is to accurately extract product information. Extract the product name, price, and rating from: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+You are a data extraction specialist with 10 years of experience in e-commerce analytics. 
+Your job is to accurately extract product information. 
+Extract the product name, price, and rating from: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
 
-**5. INSTRUCTION WITH CONSTRAINTS:**
-"Extract product info from the review below.
+**5. INSTRUCTION WITH CONSTRAINTS:**<br>
+```prompt
+Extract product info from the review below.
 RULES:
 - MUST include product name
 - MUST include exact price with dollar sign
@@ -93,39 +94,54 @@ RULES:
 - If any info is missing, write 'NOT FOUND'
 - Output as comma-separated values
 
-Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+```
 
 ---
 
-**6. NEGATIVE PROMPTING:**
-"Extract product info from this review. DO NOT include personal opinions. DO NOT add any information not in the text. DO NOT use bullet points or long explanations. Just give me product, price, and rating from: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+**6. NEGATIVE PROMPTING:**<br>
+```prompt
+Extract product info from this review. 
+DO NOT include personal opinions. 
+DO NOT add any information not in the text. 
+DO NOT use bullet points or long explanations.
+
+Just give me product, price, and rating from: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+```
 
 ---
 
-**7. SELF-CONSISTENCY PROMPTING:**
-"Extract product info three different ways, then pick the most accurate:
+**7. SELF-CONSISTENCY PROMPTING:**<br>
+```prompt
+Extract product info three different ways, then pick the most accurate:
 
 Attempt 1: Extract product, price, rating
 Attempt 2: What item, cost, and score are mentioned?
 Attempt 3: Identify the purchase details
 
-Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+```
 
 ---
 
-**8. LEAST-TO-MOST PROMPTING:**
-"Let's break this down:
+**8. LEAST-TO-MOST PROMPTING:**<br>
+```prompt
+Let's break this down:
 1. What product is mentioned in this review?
 2. How much did it cost?
 3. What rating was given?
 4. Now combine all info in a structured format
 
-Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+```
 
 ---
 
-**9. PROMPT CHAINING:**
-"Step 1: Identify the product in this review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+**9. PROMPT CHAINING:**<br>
+```prompt
+Step 1: Identify the product in this review: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 
 [After response]
 
@@ -133,33 +149,45 @@ Step 2: Now find the price of [product from step 1]
 
 [After response]
 
-Step 3: Now find the rating given to [product from step 1]"
+Step 3: Now find the rating given to [product from step 1]
+```
 
 ---
 
-**10. META-PROMPTING:**
-"Write a prompt that would best extract product information from reviews, then use that prompt on this review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+**10. META-PROMPTING:**<br>
+```prompt
+Write a prompt that would best extract product information from reviews, 
+then use that prompt on this review: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+```
 
 ---
 
-**11. TREE-OF-THOUGHTS:**
-"Extract product info. Consider multiple approaches:
+**11. TREE-OF-THOUGHTS:**<br>
+```prompt
+Extract product info. Consider multiple approaches:
 Branch A: Start with the product name...
 Branch B: Start with the price...
 Branch C: Start with the rating...
 Evaluate which approach gives the most complete extraction.
 
-Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+```
 
 ---
 
-**12. EMOTIONAL PROMPTING:**
-"This is REALLY important for my job! I desperately need you to extract the product, price, and rating perfectly! Please help me with: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.' My boss is counting on this!"
-
+**12. EMOTIONAL PROMPTING:**<br>
+```prompt
+This is REALLY important for my job! 
+I desperately need you to extract the product, price, and rating perfectly! 
+Please help me with: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.' 
+My boss is counting on this!
+```
 ---
 
-**13. ReAct (Reasoning and Acting):**
-"Let's solve this with a reasoning-action loop.
+**13. ReAct (Reasoning and Acting):**<br>
+```prompt
+Let's solve this with a reasoning-action loop.
 Thought: I need to extract three key entities: product, price, and rating.
 Action: Find the product entity in the text.
 Observation: 'Samsung Galaxy A54'.
@@ -169,36 +197,47 @@ Action: Find the rating entity in the text.
 Observation: '4 out of 5 stars'.
 Final Answer: Combine the observations.
 
-Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+```
 
 ---
 
-**14. GENERATED KNOWLEDGE:**
-"First, generate key knowledge about what to look for in a product review.
+**14. GENERATED KNOWLEDGE:**<br>
+```prompt
+First, generate key knowledge about what to look for in a product review.
 1. A review will mention a specific product name.
 2. A review often contains the purchase price.
 3. A review usually includes a score or rating.
 
-Now, using this generated knowledge as your guide, extract the product, price, and rating from: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+Now, using this generated knowledge as your guide, extract the product, price, and rating from: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+```
 
 ---
 
-**15. STEP-BACK PROMPTING:**
-"First, take a step back and state the general principle for this task. The principle is to identify and isolate specific data points (product, price, rating) from surrounding unstructured text.
+**15. STEP-BACK PROMPTING:**<br>
+```prompt
+First, take a step back and state the general principle for this task. 
+The principle is to identify and isolate specific data points (product, price, rating) from surrounding unstructured text.
 
-Now, apply this principle to extract the product name, price, and rating from: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+Now, apply this principle to extract the product name, price, and rating from: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+```
 
 ---
 
-**16. RETRIEVAL AUGMENTED GENERATION (RAG):**
-"Answer the questions using ONLY the information provided in the document below. Do not use any outside knowledge.
+**16. RETRIEVAL AUGMENTED GENERATION (RAG):**<br>
+```prompt
+Answer the questions using ONLY the information provided in the document below. Do not use any outside knowledge.
 
 DOCUMENT: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 
 QUESTIONS:
 1. What is the product name mentioned in the document?
 2. What is the price mentioned in the document?
-3. What is the rating mentioned in the document?"
+3. What is the rating mentioned in the document?
+```
+
 ---
 
 ## 🔬 Papers
