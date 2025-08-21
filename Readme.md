@@ -329,6 +329,21 @@ Review to use as an example:
 It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
+**20. PROMPT CHAINING WITH FEEDBACK LOOPS:**<br>
+```prompt
+CHAIN STEP 1: Extract product name → [output]  
+FEEDBACK: Is this a valid phone model? (Y/N) → [user input]  
+
+CHAIN STEP 2: Extract price → [output]  
+FEEDBACK: Does price match regional pricing? (Y/N) → [user input]  
+
+CHAIN STEP 3: Output FINAL result ONLY after 2 valid feedbacks.  
+
+Review:  
+'I bought the Samsung Galaxy A54 for $450 last week.  
+It's pretty good, I'd give it 4 out of 5 stars.'  
+```
+
 
 ---
 
