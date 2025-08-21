@@ -53,16 +53,15 @@ Extract the product name, price, and rating from this review:
 
 **2. FEW-SHOT:**<br>
 ```prompt
-"Review: 'The iPhone 13 costs $799 and deserves 5/5 stars!'
+Review: 'The iPhone 13 costs $799 and deserves 5/5 stars!'
 Product: iPhone 13, Price: $799, Rating: 5/5
 
 Review: 'Just got a Pixel 7 for $599. Solid 4/5.'
 Product: Pixel 7, Price: $599, Rating: 4/5
 
 Review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
-Product:"
+Product:
 ```
-
 ---
 
 **3. CHAIN-OF-THOUGHT (CoT):**<br>
@@ -78,8 +77,10 @@ Let's think through this:
 
 ---
 
-**4. ROLE PROMPTING:**
-"You are a data extraction specialist with 10 years of experience in e-commerce analytics. Your job is to accurately extract product information. Extract the product name, price, and rating from: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'"
+**4. ROLE PROMPTING:**<br>
+```prompt
+You are a data extraction specialist with 10 years of experience in e-commerce analytics. Your job is to accurately extract product information. Extract the product name, price, and rating from: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+```
 
 ---
 
