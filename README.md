@@ -16,9 +16,7 @@
 |Logo|Vendor  | Description |
 |----|--------|-------------|
 |<img src="assets/perplexity.png" width="30">|[Perplexity](https://www.perplexity.ai/) | main Perplexity AI platform, a smart chat-based search engine that combines AI (like Claude, GPT-5, Gemini) and real-time internet data|
-
 |<img src="assets/perplexity.png" width="30">|[Perplexity Playground](https://playground.perplexity.ai/) | r1-1776, sonar-resoning-pro & other models |
-
 |<img src="assets/llmarena.png" width="30">|[LmArena](https://lmarena.ai/) | Pretty nice collections of LLM models |
 
 
