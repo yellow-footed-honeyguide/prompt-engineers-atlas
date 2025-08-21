@@ -1,4 +1,4 @@
-# This repo is a map.
+# This is a map.
 > It shows the terrain.<br>
 > Models. Tools. Tactics. Proof.<br>
 > All in one place.<br>
