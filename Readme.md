@@ -51,12 +51,24 @@
 ```
 Extract the product name, price, and rating from this review: 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
-
+---
 ### 1. Zero-Shot Prompt
 ```prompt
 Extract the product name, price, and rating from this review: 
 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
+---
+### 1. Zero-Shot Prompt 🌟
+
+<div align="center" style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin: 16px 0; background: #f6f8fa;">
+
+**🎯 Task:** Information Extraction  
+**🔧 Type:** Zero-Shot Prompting  
+**📝 Instruction:** Extract structured data from product reviews
+
+```prompt
+Extract the product name, price, and rating from this review: 
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 
 ---
 
