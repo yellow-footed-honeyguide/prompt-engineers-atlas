@@ -43,9 +43,6 @@
 
 
 ## ⛏️ Prompt technics 
----
-
-
 
 **1. ZERO-SHOT:**<br>
 ```prompt
