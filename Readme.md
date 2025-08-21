@@ -69,6 +69,7 @@ Extract the product name, price, and rating from this review:
 ```prompt
 Extract the product name, price, and rating from this review: 
 'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
+```
 
 ---
 
