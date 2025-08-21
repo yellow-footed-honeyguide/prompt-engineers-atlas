@@ -100,8 +100,7 @@ RULES:
 - Output as comma-separated values
 
 Review: 
-'I bought the Samsung Galaxy A54 for $450 last week. 
-It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
@@ -115,8 +114,7 @@ DO NOT add any information not in the text.
 DO NOT use bullet points or long explanations.
 
 Just give me product, price, and rating from: 
-'I bought the Samsung Galaxy A54 for $450 last week. 
-It's pretty good, I'd give it 4 out of 5 stars.'
+'I bought the Samsung Galaxy A54 for $450 last week. It's pretty good, I'd give it 4 out of 5 stars.'
 ```
 
 ---
