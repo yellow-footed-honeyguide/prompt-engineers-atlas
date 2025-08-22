@@ -2,7 +2,7 @@
   <img src="assets/repo_logo.png" height="320">
 </div>
 
-# You've found the map. Not a map. The map.
+# You've found the map.
 > It shows the terrain.<br>
 > Models. Tools. Tactics. Proof.<br>
 > All in one place.<br>
