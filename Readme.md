@@ -33,6 +33,7 @@
 | <img src="assets/windsurf.png" width="30">|[Windsurf](https://windsurf.ai) | AI-powered IDE with advanced code completion and workflow automation |
 | <img src="assets/zed.jpg" width="30">|[Zed](https://zed.dev) | High-performance, collaborative code editor with AI features |
 | <img src="assets/fleet.png" width="30">| [JetBrains Fleet](https://www.jetbrains.com/fleet/) | Next-gen IDE with AI Assistant (JetBrains) |
+| <img src="" width="30">| [Kiro](https://kiro.dev) | The AI IDE for prototype to production Kiro helps you do your best work by bringing structure to AI coding with spec-driven development.|
 
 
 ## ⛏️ Prompt technics 
