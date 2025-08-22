@@ -386,6 +386,7 @@ battery life satisfaction."
 | 2023 |[ Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601 ) |  - |
 | 2023 |[Large Language Models as Optimizers ](https://arxiv.org/abs/2309.03409 ) | -  |
 | 2025 |[The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://arxiv.org/abs/2506.06941) | -  |
+| 2025 | [Mixture-of-Recursions: Learning Dynamic Recursive Depths for Adaptive Token-Level Computation](https://arxiv.org/abs/2507.10524)|Small model achieves big model performance through adaptive token-level computation. |
 
 
 
