@@ -364,6 +364,21 @@ Directional cue:
 battery life satisfaction."  
 ```
 
+
+**22. SYSTEM PROMPTING:**<br>
+```prompt
+[SYSTEM MESSAGE]
+You are a precise data extraction bot. Your only function is to
+extract structured data from user-provided text. You must always
+respond in a clean JSON format with the keys "product_name",
+"price", and "rating". If a value is missing, use null.
+
+[USER MESSAGE]
+Please process this review:
+'I bought the Samsung Galaxy A54 for $450 last week.
+It's pretty good, I'd give it 4 out of 5 stars.'
+```
+
 ---
 
 ## 🔬 Papers
