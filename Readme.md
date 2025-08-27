@@ -42,7 +42,7 @@
 
 
 
-## ⛏️ Prompt technics 
+## ⛏️ Prompt Technics 
 
 **1. ZERO-SHOT:**<br>
 ```prompt
