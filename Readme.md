@@ -35,12 +35,6 @@
 | <img src="assets/fleet.png" width="30">| [JetBrains Fleet](https://www.jetbrains.com/fleet/) | Next-gen IDE with AI Assistant (JetBrains) |
 | <img src="assets/kiro.png" width="30">| [Kiro](https://kiro.dev) | The AI IDE for prototype to production Kiro helps you do your best work by bringing structure to AI coding with spec-driven development.|
 
-## 📢 Official Prompt Guids
-|Logo|Vendor  | Description |
-|----|--------|-------------|
-| <img src="assets/openai.png" width="30">| OpenAI | https://cdn.openai.com/API/docs/gpt-5-for-coding-cheatsheet.pdf |
-
-
 
 ## ⛏️ Prompt Technics 
 
