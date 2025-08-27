@@ -38,7 +38,7 @@
 ## 🌀 Official Prompt Guids
 |Logo|Vendor  | Description |
 |----|--------|-------------|
-| <img src="assets/openai.png" width="30">|[OpenAI] | https://cdn.openai.com/API/docs/gpt-5-for-coding-cheatsheet.pdf |
+| <img src="assets/openai.png" width="30">|OpenAI | https://cdn.openai.com/API/docs/gpt-5-for-coding-cheatsheet.pdf |
 
 
 
