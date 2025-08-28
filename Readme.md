@@ -392,11 +392,10 @@ It's pretty good, I'd give it 4 out of 5 stars.'
 | 2020 |[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks ](https://arxiv.org/abs/2005.11401 ) | -  |
 |2022|[Research: quantifying GitHub Copilot’s impact on developer productivity and happiness ](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/) |  Is this GitHub copilot helping developers?   |
 | 2022 |[Training language models to follow instructions with human feedback ]( https://arxiv.org/abs/2203.02155) | Introducing RLHF. GPT-3.5, engine of ChatGPT  |
-| 2022 |[ Constitutional AI: Harmlessness from AI Feedback](https://scalingintelligence.stanford.edu/pubs/constitutionalai.pdf ) | -  |
-| 2022 |[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models]([https://arxiv.org/abs/2206.07682 ](https://arxiv.org/abs/2201.11903)) | -  |
+| 2022 |[Constitutional AI: Harmlessness from AI Feedback](https://scalingintelligence.stanford.edu/pubs/constitutionalai.pdf ) | -  |
 | 2022 |[Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682 ) | -  |
-| 2022 |[ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2201.11903](https://arxiv.org/abs/2210.03629) | -  |
-| 2022 |[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2212.10001](https://arxiv.org/abs/2201.11903) |  - |
+| 2022 |[ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) | -  |
+| 2022 |[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) |  - |
 | 2022 |[Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters ]( https://arxiv.org/abs/2212.10001) |  - |
 | 2023 |[Sparks of Artificial General Intelligence: Early experiments with GPT-4 ](https://arxiv.org/abs/2303.12712 ) |  - |
 | 2023 |[GPT-4 Technical Report](https://arxiv.org/abs/2303.08774 ) | -  |
