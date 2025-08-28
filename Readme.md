@@ -395,7 +395,7 @@ It's pretty good, I'd give it 4 out of 5 stars.'
 | 2022 |[ Constitutional AI: Harmlessness from AI Feedback](https://scalingintelligence.stanford.edu/pubs/constitutionalai.pdf ) | -  |
 | 2022 |[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models]([https://arxiv.org/abs/2206.07682 ](https://arxiv.org/abs/2201.11903)) | -  |
 | 2022 |[Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682 ) | -  |
-| 2022 |[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) | -  |
+| 2022 |[ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2201.11903](https://arxiv.org/abs/2210.03629) | -  |
 | 2022 |[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2212.10001](https://arxiv.org/abs/2201.11903) |  - |
 | 2022 |[Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters ]( https://arxiv.org/abs/2212.10001) |  - |
 | 2023 |[Sparks of Artificial General Intelligence: Early experiments with GPT-4 ](https://arxiv.org/abs/2303.12712 ) |  - |
